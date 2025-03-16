@@ -24,4 +24,8 @@ Por favor, digite o número da Conta:
 
 Saida de dados do Programa
 
-![Terminal Output](img\TerminalDados.png)
+```
+Olá Antonio Guilherme , obrigado por criar uma conta em nosso banco!
+Sua agência é 160-0 , conta 12
+Seu saldo atual é de R$ 1000.0
+```
