@@ -21,8 +21,7 @@ Por favor, digite o número da Conta:
 
 12
 ```
+
 Saida de dados do Programa
 
-<img src=img\TerminalDados.png>
-
-
+![Terminal Output](img\TerminalDados.png)
