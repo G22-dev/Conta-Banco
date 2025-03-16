@@ -1,10 +1,8 @@
 import java.util.Scanner;
-import java.util.Locale;
 
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
-
+        Scanner scanner = new Scanner(System.in);
         // Dados da conta
         String Nome = "Antonio Guilherme";
         double Saldo = 1000.0;
@@ -15,6 +13,8 @@ public class ContaTerminal {
 
         System.out.println("Por favor, digite o número da Conta: ");
         int Conta = scanner.nextInt();
+
+        scanner.close();
 
         // Exibindo informações da conta
         System.out.println("Olá " + Nome + " , obrigado por criar uma conta em nosso banco!");
